@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TRKS : Bill page</title>
+    <link rel="stylesheet" href="Form.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <div class="purplebox_container">
+        <div class="purplebox">
+            <b>BI||IFY</b>
+        </div>
+    </div>
+    <form name="myform">
+        <div class="input_container">
+
+            <input type="text" class="blackboder_box" name="pnr" placeholder="PNR">
+
+            <input type="text" class="blackboder_box" name="sector" placeholder="SECTOR">
+
+            <input type="text" class="blackboder_box" name="names" placeholder="PASSENGER NAME">
+
+            <input type="text" class="blackboder_box" name="invoice" placeholder="INVOICE NO">
+
+            <input type="date" class="blackboder_box" name="date" placeholder="DATE">
+
+            <input type="text" class="blackboder_box" name="airline" placeholder="AIRLINE">
+
+            <input type="text" class="blackboder_box" name="basic_fair" placeholder="BASIC FAIR">
+
+            <input type="text" class="blackboder_box" name="from" placeholder="FROM">
+
+            <input type="text" class="blackboder_box" name="tax" placeholder="Tax_Percentage">
+
+            <input type="text" class="blackboder_box" name="to" placeholder="TO">
+
+        </div>
+        <div id="error_text"></div>
+        <div id="result"></div>
+        <input id="smallpurple_box_container" type="submit" value="Submit" onclick="formValidation()">
+    </form>
+
+</body>
+
+</html>
